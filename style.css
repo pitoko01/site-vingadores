@@ -17,9 +17,51 @@ header > h1{
 }
 
 main{
-    background-color: rgba(236, 160, 160, 0.171);
+    background-color: rgba(255, 0, 0, 0.171);
+    font-size: 1.4em;
 }
 
 main > h2{
     font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    line-height: 1.3em;
+    background-image: linear-gradient(to left, rgba(255, 0, 0, 0.474), transparent);
+}
+
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 1.3em;
+}
+
+main img {
+    width: 100%;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+footer > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+
+footer > a:hover{
+    color: purple;
+    text-decoration: underline;
 }
